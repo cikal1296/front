@@ -5,7 +5,7 @@ async function sendPrompt() {
   result.textContent = "Loading...";
 
   const res = await fetch(
-    "https://gemini-backendd.vercel.app/api/chat",
+    "https://gemini-backend-w8a2.vercel.app/api/chat",
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
